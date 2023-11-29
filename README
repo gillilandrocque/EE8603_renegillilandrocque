@@ -1,0 +1,5 @@
+Abstract:
+In this project a variety of machine learning models are evaluated at the ability to determine the outcome of a game of chess. The data has 37 features; the first 36 are features that describe the state of the board and the 37th feature is the outcome of the game, either ‘won’ or ‘nowin’. 16 models were trained using the PyCaret library and the top 3 were saved. The best model is compared against a stack and blended model of the top 3. The best model was a CatBoost Classifier that had an accuracy of 99.27%, AUC of %99.95, Recall of 99.27%, Precision of 99.27%, and F1 of 99.27%. The blended model and stacked model did not offer significant increase of the best model, with the only change being a slightly better AUC. The classifier was able to predict if the white pieces would win or lose with a high degree of accuracy. The models were saved for future use.
+
+Video Link:
+https://youtu.be/CreYCVmk77Y
